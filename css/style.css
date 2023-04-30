@@ -1,0 +1,108 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hidden{
+    display: none;
+}
+
+main{
+    height: 100vh;
+    overflow-y: hidden;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgImage{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    bottom: 0;
+    top: 0;
+    z-index: -1;
+    overflow-y: hidden;
+}
+
+
+.left_component{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: rgba(240, 248, 255, 0.058);
+    border-radius: 30px;
+}
+.now{
+    font-size: 100px;
+}
+#weather{
+    font-size: 20px;
+    margin: 20px 0px;
+}
+#quote{
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.601);
+}
+#quote span:first-child{
+  font-size: 13px;
+}
+#quote span:last-child{
+    font-weight: bold;
+}
+
+.right_component{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+/* .profile form{
+    border: 2px solid firebrick;
+} */
+.profile input{
+    margin: 5px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+    box-shadow: 0px 3px 25px -30px #000;
+}
+
+#greeting{
+    font-size: 40px;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+}
+
+.todolist{
+background-color: #ffffff64;
+border-radius: 10px;
+   padding: 20px;
+   font-size: 12px;
+}
+.todolist li{
+    margin-top: 5px;
+    padding: 2px;
+}
+.todolist button{
+    padding: 0.01px;
+   margin: 0 5px;
+   font-size: 5px;
+   border-radius: 10px;
+   border: 1px solid rgba(83, 74, 74, 0.89);
+}
